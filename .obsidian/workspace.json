@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "ddbae12cceb4e646",
+    "type": "split",
+    "children": [
+      {
+        "id": "918dbcb1484966e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1cd8d28a76726ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/thread-safe programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54d7368424271a47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/Data Structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2553b470de6e309f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7869bb716bd65ab4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d91596f330609642",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34ee32af5a9749c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9c1354ea40cfd624",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5026054382324
+  },
+  "right": {
+    "id": "d7ffa2a5817fd0c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c813137ff9906b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e033769a8d204f45",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "java/Data Structure.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "03c6423bb696a696",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "java/Data Structure.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fd2c59cd13106b27",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4e6930f715a7061f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "java/Data Structure.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "jupyter:Start Jupyter Server": false,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "54d7368424271a47",
+  "lastOpenFiles": [
+    "git",
+    "New folder",
+    "New Text Document.txt",
+    "java/OOP.md",
+    "java/thread-safe programming.md",
+    "java/Advanced JAVA.md",
+    "java/Data Structure.md",
+    "ML@kaggle/Times Series/Times Series@ Kaggle.md",
+    "java/questions.md",
+    "Pasted image 20240711175756.png",
+    "Pasted image 20240711030857.png",
+    "Untitled.canvas",
+    "C++/Data Structure.md",
+    "C++/Basic Operation.md",
+    "ML@kaggle/Times Series/code/exercise-linear-regression-with-time-series.ipynb",
+    "java",
+    "ML@kaggle/Times Series/code/Toolbox.md",
+    "ML@kaggle/exercise-linear-regression-with-time-series.ipynb",
+    "ML@kaggle/Times Series/code/out.csv",
+    "templates/templater.md",
+    "ML@kaggle/Times Series/input/ts-course-data/us-retail-sales.csv",
+    "ML@kaggle/Times Series/input/ts-course-data/tunnel.csv",
+    "ML@kaggle/Times Series/input/ts-course-data/trig.csv",
+    "ML@kaggle/Times Series/input/ts-course-data/reserve.csv",
+    "templates/{{Programming template}}.md",
+    "2024-07-04.md",
+    "ML/Time Series.md",
+    "C sharp/Record.md",
+    "C sharp/Class.md",
+    "C++/Vector.md",
+    "C++/Basics.md",
+    "Pasted image 20240629154917.png",
+    "日麻雀/役.md",
+    "C sharp/struct.md",
+    "C sharp/Value type.md",
+    "C sharp/Untitled 2.md",
+    "C sharp/Untitled 1.md",
+    "C sharp/Untitled.md",
+    "Untitled.md",
+    "C sharp/Class/Virtual.md",
+    "Pasted image 20240629155041.png",
+    "Pasted image 20240629155039.png",
+    "Pasted image 20240629155037.png"
+  ]
+}

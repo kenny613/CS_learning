@@ -1,0 +1,1 @@
+- `pulbic record class class1` is ok
