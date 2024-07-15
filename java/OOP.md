@@ -1,7 +1,9 @@
+## Interface VS Composition
+---
 
 ## Multiple Inheritance
 ---
-
+- A class can inherit from only one abstract class, but it can implement multiple interfaces. This is because an abstract class represents a type of object, while an interface represents a set of behaviors.
 ## Object casting
 ---
 type only use typed method

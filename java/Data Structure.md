@@ -1,3 +1,6 @@
+## Primitive type conversion
+---
+![[Pasted image 20240715222338.png]]
 ## Array
 ---
 ```java

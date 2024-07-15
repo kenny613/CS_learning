@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/Interview questions.md",
+                "file": "java/Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/Data Structure.md",
+                "file": "java/Interview questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5026054382324
+    "width": 232.5
   },
   "right": {
     "id": "d7ffa2a5817fd0c8",
@@ -157,15 +156,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "publish:Publish changes...": false,
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": false,
-      "jupyter:Start Jupyter Server": false,
-      "canvas:Create new canvas": false,
-      "publish:Publish changes...": false
+      "jupyter:Start Jupyter Server": false
     }
   },
-  "active": "2da2617146aba73e",
+  "active": "e1cd8d28a76726ad",
   "lastOpenFiles": [
+    "Pasted image 20240715222338.png",
+    "java/OOP.md",
+    "java/Interview questions.md",
+    "java/questions.md",
+    "java/Data Structure.md",
     "java/Spring boot/MVC.md",
     "java/Spring boot/Annotation.md",
     "Untitled.canvas",
@@ -173,8 +177,6 @@
     "templates/{{Programming template}}.md",
     "templates/templater.md",
     "java/Concurrency & multithreading.md",
-    "java/Data Structure.md",
-    "java/Interview questions.md",
     "C++/Data Structure.md",
     "C++/Basic Operation.md",
     "SQL/Exercise.md",
@@ -190,13 +192,11 @@
     "Pasted image 20240715025428.png",
     "Pasted image 20240715025413.png",
     "java/Advanced JAVA.md",
-    "java/OOP.md",
     "java/Spring boot",
     "Design Pattern/Singleton.md",
     "C#/Class.md",
     "Design Pattern",
     "Untitled",
-    "java/questions.md",
     "git",
     "New folder",
     "New Text Document.txt",
