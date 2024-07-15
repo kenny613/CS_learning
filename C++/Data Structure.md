@@ -1,7 +1,7 @@
 ## Array
 ---
-- Array length issue
- In C++, variable length arrays are not legal. G++ allows this as an "extension" (because C allows it), so in G++ (without being `-pedantic` about following the C++ standard), you can do:
+#### Array length issue
+-  In C++, variable length arrays are not legal. G++ allows this as an "extension" (because C allows it), so in G++ (without being `-pedantic` about following the C++ standard), you can do:
 
 ```cpp
 int n = 10;

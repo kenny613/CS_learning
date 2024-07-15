@@ -10,7 +10,12 @@ for(i = 0; i < foo.length; i++){
 }
 ```
 
-
+## String
+---
+```java
+String word = "dlln"
+char x = word.charAt(0); // "d"
+```
 ## Collection Interface
 ---
 ![[Pasted image 20240711030857.png]]
@@ -30,7 +35,7 @@ Cannot hold primitive type
 	- `List<int>` is not ok
 	- `List<Integer>` is good to go
 
-Hireachy
+Hierarchy
 ![[Pasted image 20240711175756.png]]
 ## `Deque`
 ---
@@ -51,15 +56,14 @@ Comparison of Queue and Deque methods
 | [`peek()`](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html#peek--)       | [`peekFirst()`](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#peek--)          |
 
 
-
 ## `LinkedList<T>`
 ---
-Implemented interfaces:
+#### Implemented interfaces:
 ```java
 [Iterable]<E>, [Collection]<E>, [Deque]<E>, [List]<E>, [Queue]<E>
 ```
 
-How to use:
+#### How to use:
 ```java
 LinkedList<String> foo = new LinkedList<> ();
 foo.add("timber");
@@ -67,11 +71,7 @@ foo.add(1, "shakes"); // add to position 1
 foo.removeFirst();
 ```
 
-`LinkedList` vs `ArrayList`
-	- Adding element
-		`LinkedList` is quicker than `ArrayList` because `ArrayList` can get resized (Amortized time complexity)
-	- Random element access
-		`ArrayList` is quicker than `LinkedList` because `ArrayList` is in **locality of reference**
+
 
 Common methods
 - `addFirst`, `addLast()`, `removeFirst()`, `removeLast()`
@@ -93,18 +93,13 @@ queue.poll();
 System.out.println(queue);
 ```
 
-`LinkedList` vs `ArrayDeque`
-- `ArrayDeque` is better in access. Since the data is stored in [[java/Data Structure#Locality of references|contiguous space]] , data will be stored in cache pretty easily. 
-- `ArrayDeque` is better in adding new element at** start or back**. New Node has to be created for `LinkedList`
-- `LinkedList` is better in adding new element at **middle**. 
-	1. create a new node to hold the element;
-	2. set the _next_ pointer of the previous node to the new node;
-	3. set the _next_ pointer of the new node to the next element in the list.
-	while `ArrayDeque` has to shrift the element
-
-- `LinkedList` support `null` element while `ArrayDeque` cannot
-
-
+#### Time complexity
+- **_add()_** – appends an element to the end of the list. It only updates a tail, and therefore, it’s _O(1)_ constant-time complexity.
+- _**add(index, element)**_ – on average runs in _O(n)_ time
+- **_get()_** – searching for an element takes _O(n)_ time.
+- **_remove(element)_** – to remove an element, we first need to find it. This operation is _O(n)._
+- _**remove(index)**_ – to remove an element by index, we first need to follow the links from the beginning; therefore, the overall complexity is _O(n)._
+- **_contains()_** – also has _O(n)_ time complexity
 
 ## `ArrayDeque`
 ---
@@ -146,13 +141,13 @@ Why `ArrayDeque` over `Stack`?
 2. Print in order from top to bottom
 
 Why `Stack` over `ArrayDeque`?
-- **[[thread-safe programming#Thread-safe|thread safe]]**
+- **[[Concurrency & multithreading#Thread-safe|thread safe]]**
 
 `stack.seek()` to check the top element
 `stack.pop()` to pop the top element
 `stack.poll()` is Exception free
 
-`ArrayDeque` is not **[[thread-safe programming#Thread-safe|thread safe]]** but **stack** is
+`ArrayDeque` is not **[[Concurrency & multithreading#Thread-safe|thread safe]]** but **stack** is
 
 ## `Queue`
 ---
@@ -195,10 +190,42 @@ Map<String, Integer> m = new HashMap<String, Integer>();
     if (!map.containsKey(clazz))
         classes.put(clazz, 0);
     classes.put(clazz, classes.get(clazz)+1);
-
 ```
 
-`hashTable` vs `hashMap`
+Allows `null` but `hashTable` does not
+
+## StringBuilder
+---
+
+
+## Collection comparison
+---
+#### `hashTable` vs `hashMap`
+
+| `hashtable`           | `hashMap`     |
+| --------------------- | ------------- |
+| Synchronized          | Unsychronized |
+| does not allow `null` | Allows `null` |
+|                       |               |
+|                       |               |
+
+### `List` vs `ArrayList` vs `LinkedList`
+- `List` is an `interface`
+- 
+#### `LinkedList` vs `ArrayList`
+	- Adding element
+		`LinkedList` is quicker than `ArrayList` because `ArrayList` can get resized (Amortized time complexity)
+	- Random element access
+		`ArrayList` is quicker than `LinkedList` because `ArrayList` is in **locality of reference**
+		
+#### `LinkedList` vs `ArrayDeque`
+
+|                                         | `LinkedList` | `ArrayDeque` |                                                                                                                                                                                                                                            |
+| --------------------------------------- | ------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Element access                          | Slower       | Faster       | [[java/Data Structure#Locality of references\|contiguous space]], $O(n)$ for `Linkedlist`                                                                                                                                                  |
+| Adding/Removing element at start or end | Slower       | Faster       | Node (memory) has to be created/ removed for `LinkedList`                                                                                                                                                                                  |
+| Adding/Removing element in the middle   | Faster       | Slower       | 1. create a new node to hold the element;<br>2. set the _next_ pointer of the previous node to the new node;<br>3. set the _next_ pointer of the new node to the next element in the list.<br>while `ArrayDeque` has to shrift the element |
+| `null`-able?                            | Yes          | No           |                                                                                                                                                                                                                                            |
 
 # Glossary
 ---

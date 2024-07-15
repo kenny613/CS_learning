@@ -29,11 +29,7 @@ interface MyInterface {
 }
 ```
 
-#### Upcasting
-
-#### Downcasting
-
-
+#### Object Casting
 ```java
 public class HelloWorld{
 	// version 1: OK!
@@ -43,7 +39,7 @@ public class HelloWorld{
     public static void main(String[] args) {
         MyInterface foo = new Foo();
         MyInterface bar = new Bar();
-        doSomethingWith((Bar)bar);
+        doSomethingWith(bar);
     }
 
 

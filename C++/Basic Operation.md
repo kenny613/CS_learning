@@ -1,5 +1,7 @@
 
-### `unordered_map`
+## `unordered_map`
+---
+
 - `find`: Check if key exist in the map
 ```C++
  if (mp.find(key)!= mp.end()) {
@@ -7,7 +9,9 @@
  }
  ```
 
-### `std::sort`
+## Sorting
+---
+
 ```C++
 // sort algorithm example
 #include <iostream>     // std::cout

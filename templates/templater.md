@@ -1,6 +1,4 @@
 Yesterday: 
-# <% tp.file.title %>
-
 
 
 
