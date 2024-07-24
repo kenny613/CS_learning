@@ -1,5 +1,7 @@
 [
   "templater-obsidian",
   "obsidian42-brat",
-  "jupyter"
+  "jupyter",
+  "sheets",
+  "table-editor-obsidian"
 ]

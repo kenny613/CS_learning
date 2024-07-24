@@ -2,6 +2,7 @@
 
 ---
 ---
+
 - LiftCycle is made up of phrase
 	- `validate` - validate the project is correct and all necessary information is available
 	- `compile` - compile the source code of the project
