@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/Advanced JAVA.md",
+                "file": "java/Concurrency & multithreading.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sort",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/Advanced JAVA.md",
+                "file": "java/Concurrency & multithreading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/Advanced JAVA.md",
+                "file": "java/Concurrency & multithreading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/Advanced JAVA.md"
+                "file": "java/Concurrency & multithreading.md"
               }
             }
           },
@@ -161,10 +160,19 @@
   },
   "active": "b85cb364d7c01ca3",
   "lastOpenFiles": [
-    "java/Basic operation.md",
-    "java/Data Structure.md",
-    "java/questions.md",
+    "java/Java++/Functional programming.md",
+    "java/Java++/misc.md",
+    "java/Java++/Annotation.md",
+    "java/Spring boot/Annotation.md",
     "java/Spring boot/Aspect Orientated Programming.md",
+    "java/Concurrency & multithreading.md",
+    "java/Basic operation.md",
+    "java/Advanced JAVA.md",
+    "java/Java++",
+    "java/Data Structure.md",
+    "java/Interview questions.md",
+    "java/OOP.md",
+    "java/questions.md",
     "java/Untitled.md",
     "java/Spring boot/Beans.md",
     "Untitled.canvas",
@@ -174,7 +182,6 @@
     "Pasted image 20240723223159.png",
     "Pasted image 20240717031710.png",
     "java/Spring boot/MVC.md",
-    "java/Spring boot/Annotation.md",
     "SQL/Exercise.md",
     "templates/{{Programming template}}.md",
     "templates/templater.md",
@@ -182,11 +189,8 @@
     "web/Javascript.md",
     "web/REST.md",
     "web",
-    "java/Advanced JAVA.md",
     "C++/Data Structure.md",
     "Pasted image 20240715222338.png",
-    "java/Concurrency & multithreading.md",
-    "java/Interview questions.md",
     "C++/Basic Operation.md",
     "Pasted image 20240713170323.png",
     "SQL",
@@ -195,18 +199,13 @@
     "Pasted image 20240715030049.png",
     "Pasted image 20240715025543.png",
     "Pasted image 20240715025525.png",
-    "java/OOP.md",
     "java/Spring boot",
     "Design Pattern/Singleton.md",
-    "C#/Class.md",
     "Design Pattern",
     "git",
     "New folder",
     "New Text Document.txt",
-    "ML@kaggle/Times Series/Times Series@ Kaggle.md",
     "ML@kaggle/Times Series/code/exercise-linear-regression-with-time-series.ipynb",
-    "java",
-    "ML@kaggle/Times Series/code/Toolbox.md",
-    "ML@kaggle/exercise-linear-regression-with-time-series.ipynb"
+    "java"
   ]
 }

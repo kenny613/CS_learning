@@ -21,7 +21,7 @@ char x = word.charAt(0); // "d"
 ```
 ## Collection Interface
 ---
-![[Pasted image 20240711030857.png]]
+![[Pasted image 20240711030857.png|500]]
 These classes implement `collection` and share the following basic APIs but with different implementation 
 	- `add()`
 	- `clear()`
@@ -39,7 +39,7 @@ Cannot hold primitive type
 	- `List<Integer>` is good to go
 
 Hierarchy
-![[Pasted image 20240711175756.png]]
+![[Pasted image 20240711175756.png|500]]
 ## `Deque`
 ---
 Implement `Iterable<E>, Collection<E>, Queue<E>`
@@ -49,7 +49,7 @@ This interface extends the [`Queue`](https://docs.oracle.com/javase/8/docs/api/
 
 Comparison of Queue and Deque methods
 
-| **`Queue` Method**                                                                      | **Equivalent `Deque` Method**                                                                   |
+| **`Queue` Method**                                                                      | `Deque` Method**                                                                                |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [`add(e)`](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html#add-E-)       | [`addLast(e)`](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#addLast-E-)       |
 | [`offer(e)`](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html#offer-E-)   | [`offerLast(e)`](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#offerLast-E-)   |
@@ -61,23 +61,7 @@ Comparison of Queue and Deque methods
 
 ## `LinkedList<T>`
 ---
-#### Implemented interfaces:
-```java
-[Iterable]<E>, [Collection]<E>, [Deque]<E>, [List]<E>, [Queue]<E>
-```
-
-#### How to use:
-```java
-LinkedList<String> foo = new LinkedList<> ();
-foo.add("timber");
-foo.add(1, "shakes"); // add to position 1
-foo.removeFirst();
-```
-
-
-
-Common methods
-- `addFirst`, `addLast()`, `removeFirst()`, `removeLast()`
+Implemented `[Iterable]<E>, [Collection]<E>, [Deque]<E>, [List]<E>, [Queue]<E>``
 
 `LinkedList` is not synchronized, not thread-safe, to make it synchronized:
 ```java
@@ -189,10 +173,10 @@ System.out.println(wordSet); // ["FDJ", "Yaml", "Messi"], unchange because same 
 ```java
 List<String> ips = new ArrayList<String>(); 
 Map<String, Integer> m = new HashMap<String, Integer>();
-	for(String ip: ips)
-    if (!map.containsKey(clazz))
-        classes.put(clazz, 0);
-    classes.put(clazz, classes.get(clazz)+1);
+if (!m.containsKey(clazz))
+	m.put(clazz, 0);
+	m.put(clazz, classes.get(clazz)+1); // 1. use put
+	m.merge(clazz, 1, Integer:sumA)     // 2. use merge
 ```
 
 Allows `null` but `hashTable` does not
@@ -221,7 +205,8 @@ Allows `null` but `hashTable` does not
 	- Random element access
 		`ArrayList` is quicker than `LinkedList` because `ArrayList` is in **locality of reference**
 		
-#### `LinkedList` vs `ArrayDeque`
+## `LinkedList` vs `ArrayDeque`
+---
 
 |                                         | `LinkedList` | `ArrayDeque` |                                                                                                                                                                                                                                            |
 | --------------------------------------- | ------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -229,6 +214,8 @@ Allows `null` but `hashTable` does not
 | Adding/Removing element at start or end | Slower       | Faster       | Node (memory) has to be created/ removed for `LinkedList`                                                                                                                                                                                  |
 | Adding/Removing element in the middle   | Faster       | Slower       | 1. create a new node to hold the element;<br>2. set the _next_ pointer of the previous node to the new node;<br>3. set the _next_ pointer of the new node to the next element in the list.<br>while `ArrayDeque` has to shrift the element |
 | `null`-able?                            | Yes          | No           |                                                                                                                                                                                                                                            |
+
+
 
 # Glossary
 ---

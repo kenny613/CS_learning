@@ -1,71 +1,7 @@
-## Regex `String.matches(regex)`
-```java
-String regex = "cat|dog|fish";
-
-System.out.println("cat".matches(regex));
-System.out.println("dog".matches(regex));
-System.out.println("catfish".matches(regex));
-System.out.println("doggy bag".matches(regex));
-```
-
-## Lambda Expression
-```java
-Predicate<String> largerThan5 = 5 -> s.length() > 5;
-boolean result = largerThan5.test("test");
-System.out.println(result);
-
-Consumer<String> printUpperCase = s -> System.out.println(s.toUpperCase());
-printUpperCase.accept("hello functional programming");
-
-doSomething(largerThan5);
-doSomething(s -> s.startsWith("A"));
-
-public static void doSomething(Predicate<String> p){
-	System.out.println(p.test("doSomething"));
-}
-```
-
-## Stream API
 ---
-```java
-// Stream from collection
-List<String> names = Arrays.asList("Lori", "Christa", "Maaike");
-Stream<String> nameStream = names.stream();
+aliases:
+---
 
-// Creating a Stream from an Array
-String[] namesArray={"Isra", "Jonsa", "Gaia"};
-Stream<String> nameArrayStream = Arrays.stream(namesArray);
-
-// Creating a Stream using Stream.of()
-Stream<String> namesOfStream = Stream.of("Ismael", "David", "Andreas");
-```
-#### Intermediate Operations
-- `filter`
-- `map`
-- `flatMap`
-#### Terminal Operations
-- `forEach`
-- `collect`
-- `reduce`
-
-#### Exercise: using `flatMap` to split `List<String>` into `List` of character
-```java
-List<String> messi = Arrays.asList("Leo","Messi");
-List<String> messiSplit = hi.stream()
-					.flatMap(s -> Arrays.stream(s.split("")))
-					.collect(Collectors.toList());		
-```
-
-#### Exercise: Sort object based on particular attributes
-```java
-List<Obj> = Objs.stream().sorted((a,b)->a.val.compareTo(b.val)).collect(Collectors.toList())
-// (a,b)->a.val.compareTo(b.val) is a comparator
-```
-
-
-
-
-## Annotation
 ---
 ```java
 import java.lang.annotation.Retention;
@@ -89,7 +25,8 @@ SOURCE 的意思就是你所使用的 Annotation 在 compile 後會被丟掉，�
 #### interface
 如果說 interface 是一個給 implemented class 的介面，那 @interface 就是一個給 Annotation 互動的介面，因此所有的 Annotation 在宣告時都需要使用 @interface。並且在現在會有越來越多人不想寫 Comment，反而透過這種方式寫註解。
 
-# Reflection API
+## Reflection API
+---
 ![[Pasted image 20240713170323.png]]
 - Examine the behavior or modify the behavior of classes or methods
 ```java
@@ -108,6 +45,3 @@ public class ReflectionExample{
 2. Create `Object` instance of `Class: `com.linkdein.mod3annotations.info` `
 3. Get `Method`: `getDetailedInfo`
 4. Invoke `Method`:`getDetailedInfo` into instance 
-
-
-

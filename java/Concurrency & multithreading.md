@@ -1,11 +1,39 @@
-#### Synchronized 
+## Synchronized 
+---
 - Mutual exclusive, locked resouce with one thread is accessing
 - like a toilet, the object can be used by only one person (thread). However it is sharable even only one person can use it at one time.
-#### Concurrent
+## Concurrent
+---
 - Allows multiple thread
 - like pond, where many person (threads) can solve their different needs. Like washerman washes, some take bath and so on.
 
-### `ConcurrentHashMap` vs `SynchronizedHashMap`?
+## Thread
+---
+```java
+public class ThreadExample extends Thread{
+	@Override
+	public void run(){
+		System.out.println("HEllo");
+	}
+}
+
+Thread one = new ThreadExample();
+Thread two = new ThreadExample();
+one.start();
+two.start();
+```
+
+https://segmentfault.com/a/1190000016611415
+
+## `implements Runnable` vs `extends Thread`
+---
+- `Runnable` is `interface`, `Thread` is `class`. Able to extend from another class as well
+- `Runnalbe` is passed into `thread`, achieving `Composition`
+	- `Compoisiton` is believed to be more flexible than `interface`
+
+
+
+## `ConcurrentHashMap` vs `SynchronizedHashMap`?
 Both maps are thread-safe implementations of the `Map` interface. `ConcurrentHashMap` is implemented for higher throughput in cases where high concurrency is expected.
 
 Brian Goetz's [article](http://www.ibm.com/developerworks/java/library/j-jtp08223/index.html) on the idea behind `ConcurrentHashMap` is a very good read. Highly recommended
