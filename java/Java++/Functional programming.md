@@ -35,6 +35,7 @@ doSomething(s -> s.startsWith("A"));
 public static void doSomething(Predicate<String> p){
 	System.out.println(p.test("doSomething"));
 }
+```
 
 ## Stream API
 ---

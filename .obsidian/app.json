@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "readableLineLength": false,
-  "tabSize": 4
+  "tabSize": 4,
+  "attachmentFolderPath": "img"
 }

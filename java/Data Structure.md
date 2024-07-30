@@ -1,3 +1,4 @@
+# Primitive Data Structure
 ## Primitive type conversion
 ---
 ![[Pasted image 20240715222338.png]]
@@ -19,6 +20,9 @@ for(i = 0; i < foo.length; i++){
 String word = "dlln"
 char x = word.charAt(0); // "d"
 ```
+
+# Non-primitive Data Structure
+
 ## Collection Interface
 ---
 ![[Pasted image 20240711030857.png|500]]
@@ -40,6 +44,12 @@ Cannot hold primitive type
 
 Hierarchy
 ![[Pasted image 20240711175756.png|500]]
+## `ArrayList`
+---
+Time complexity
+- Inert to head: $O(n)$
+- Insert to last: $O(1)$ and 
+
 ## `Deque`
 ---
 Implement `Iterable<E>, Collection<E>, Queue<E>`
@@ -90,10 +100,10 @@ System.out.println(queue);
 
 ## `ArrayDeque`
 ---
-Implement `Iterable<E>, Collection<E>, Deque<E>, Queue<E>`
-
-Can be used as queue or stack
-
+- Implement `Iterable<E>, Collection<E>, Deque<E>, Queue<E>`
+- Can be used as queue or stack
+- Implemented using **circular array**
+![[Pasted image 20240730011716.png|500]]
 ## `Stack`
 ---
 ```java
@@ -185,7 +195,7 @@ Allows `null` but `hashTable` does not
 ---
 
 
-## Collection comparison
+## Comparison
 ---
 #### `hashTable` vs `hashMap`
 
@@ -196,24 +206,30 @@ Allows `null` but `hashTable` does not
 |                       |               |
 |                       |               |
 
-### `List` vs `ArrayList` vs `LinkedList`
+#### `Array` vs `ArrayList`
+---
+- `ArrayList` allows generic to ensure type safety
+#### `List` vs `ArrayList` vs `LinkedList`
+---
 - `List` is an `interface`
 - 
 #### `LinkedList` vs `ArrayList`
-	- Adding element
-		`LinkedList` is quicker than `ArrayList` because `ArrayList` can get resized (Amortized time complexity)
-	- Random element access
-		`ArrayList` is quicker than `LinkedList` because `ArrayList` is in **locality of reference**
+---
+-  Adding element
+	`LinkedList` is quicker than `ArrayList` because `ArrayList` can get resized (Amortized time complexity)
+- Random element access
+	`ArrayList` is quicker than `LinkedList` because `ArrayList` is in **locality of reference**
 		
-## `LinkedList` vs `ArrayDeque`
+#### `LinkedList` vs `ArrayDeque`
 ---
 
 |                                         | `LinkedList` | `ArrayDeque` |                                                                                                                                                                                                                                            |
 | --------------------------------------- | ------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Element access                          | Slower       | Faster       | [[java/Data Structure#Locality of references\|contiguous space]], $O(n)$ for `Linkedlist`                                                                                                                                                  |
+| Element access                          | Slower       | Faster       | [[java/Data Structure#Locality of references\|contiguous space]] suing circular array, $O(n)$ for `Linkedlist`                                                                                                                             |
 | Adding/Removing element at start or end | Slower       | Faster       | Node (memory) has to be created/ removed for `LinkedList`                                                                                                                                                                                  |
 | Adding/Removing element in the middle   | Faster       | Slower       | 1. create a new node to hold the element;<br>2. set the _next_ pointer of the previous node to the new node;<br>3. set the _next_ pointer of the new node to the next element in the list.<br>while `ArrayDeque` has to shrift the element |
 | `null`-able?                            | Yes          | No           |                                                                                                                                                                                                                                            |
+|                                         |              |              |                                                                                                                                                                                                                                            |
 
 
 

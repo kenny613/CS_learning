@@ -27,7 +27,7 @@ SOURCE 的意思就是你所使用的 Annotation 在 compile 後會被丟掉，�
 
 ## Reflection API
 ---
-![[Pasted image 20240713170323.png]]
+![[Pasted image 20240713170323.png|500]]
 - Examine the behavior or modify the behavior of classes or methods
 ```java
 import java.java.reflect.Method;

@@ -4,14 +4,33 @@ aliases:
 ---
 https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
 
-## T OR F
+# Interview Q&A
+#### var1
+
+#### How does closure works?
+In the following code, `inner` forms a closure with the lexical environment of the execution context created when `foo` is invoked, _closing over_ variable `secret`:
+```javascript
+function foo() {
+  const secret = Math.trunc(Math.random() * 100)
+  return function inner() {
+    console.log(`The secret number is ${secret}.`)
+  }
+}
+const f = foo() // `secret` is not directly accessible from outside `foo`
+f() // The only way to retrieve `secret` is to invoke `f`
+```
+
+
+#### What is hoisting?
+- `var x` declaration will always move to top
+
+## True OR False
 ---
 
 ✅ JavaScript, variables can be used without declawing in 'use strict mode'
 
 ❌JavaScript implements inheritance by using [objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#objects). Each object has an internal link to another object called its _prototype_.
-- JavaScript implements inheritance by using [objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#objects). Each object has an internal link to another object called its _prototype_.
-- 
+
 ✅ In JavaScript, inheritance takes place by cloning the prototype of an object.
 
 ✅In JavaScript $a, x, Y, Z, With are valid variable names.

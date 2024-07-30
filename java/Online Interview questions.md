@@ -36,7 +36,7 @@ aliases:
 
 `@GetMapping("api/widget")`
 
-`@RequestMapping("api/widget")`
+`@RequestMapping("api/widget")`    
 
 ---
 ![[Pasted image 20240715021929.png]]A

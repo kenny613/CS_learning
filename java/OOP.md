@@ -19,9 +19,7 @@
 - **ActionListener –>** This interface only contains the actionPerformed() method.
 - **Callable –>** This interface only contains the call() method.
 
-```java
 
-```
 ## Multiple Inheritance
 ---
 - A class can inherit from only one abstract class, but it can implement multiple interfaces. This is because an abstract class represents a type of object, while an interface represents a set of behaviors.
