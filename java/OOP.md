@@ -12,6 +12,16 @@
 | Method   | Must be implemented in derived class | Must be `@override `with `abstract` *(`default` method in Java 8 without overriding)* |
 
 
+## `equals` implementation for objects
+---
+```java
+@Override public boolean equals(Object o) { 
+	if (o == this) return true; 
+	if (!(o instanceof CustomObj)) { return false; } 
+	CustomObj oo = (CustomObj) o; 
+	return oo.uniqueField.equals(uniqueField); 
+}
+```
 ## Functional Interface
 ---
 - **Runnable –>** This interface only contains the run() method.
@@ -50,7 +60,7 @@ main(){
 	a.sayGoodBye(); 
 	// Works as long as the object pointed to by the a variable is an instanceof B. This is
 	((B)a).sayGoodBye();
-	
+	// instainceof works as long as the reference is a B object, regardsless of the type defintiion
 	System.out.println(a instanceof A); // true  
 	System.out.println(a instanceof B); // true
 	System.out.println(a instanceof C); // false  

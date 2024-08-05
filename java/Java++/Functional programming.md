@@ -1,7 +1,6 @@
 ---
 
 ---
-
 ## Method References
 ---
 ```java
@@ -15,13 +14,15 @@ numbers.forEach(NumberUtils::evenOrOdd);
 - `functional interface` used in `forEach`
 ```java
 public void forEach(
-	java. util. function. BiConsumer<? super K, ? super V> action )
+	java.util.function.BiConsumer<? super K, ? super V> action )
 public void forEach( 
-	java. util. function. Consumer<? super T> action )
+	java.util.function.Consumer<? super T> action )
+// e,g,
 ```
 ## Lambda Expression
 ---
 ```java
+// Predicate: reutrn true of false
 Predicate<String> largerThan5 = 5 -> s.length() > 5;
 boolean result = largerThan5.test("test");
 System.out.println(result);

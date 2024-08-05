@@ -83,7 +83,7 @@ a.append(" broken!"); // ok because final != immutability
 | Inheritance.       | Method overloading may or may not require inheritance.                            | Method overriding always needs inheritance.                                                                                               |
 | Signatures.        | Same name but different signatures.                                               | Same name and same signature.                                                                                                             |
 | Return type        | Return type can or can not be the same, but we just have to change the parameter. | Return type must be the same or co-variant.                                                                                               |
-| Blindg             | Static binding is being used for overloaded methods.                              | Dynamic binding is being used for overriding methods.                                                                                     |
+| Blindg             | **Static binding** is being used for overloaded methods.                          | **Dynamic binding** is being used for overriding methods.                                                                                 |
 | Scope              | Private and final methods can be overloaded.                                      | Private and final methods can’t be overridden.                                                                                            |
 | Arguemnts          | The argument list should be different while doing method overloading.             | The argument list should be the same in method overriding.                                                                                |
 **Static method** CANNOT be overriden
@@ -172,6 +172,7 @@ movies.sort(ratingCompare);
 ## Data Structure
 ---
 #### How to use object as `hashMap`key?
+	- Need to implement `hashCode` and `equals`
 
 ## OOP
 ---
@@ -179,7 +180,7 @@ movies.sort(ratingCompare);
 Inheritance 
 - _using the structure and behavior of a super class in a subclass.
 Polymorphoism
-- changing the behavior_ of a super class in the subclass.
+- changing the behavior of a super class in the subclass.
 - requires inheritance
 - `Overloading`: Compile-time poly
 - `Overrriding`: run-time poly

@@ -63,7 +63,7 @@ any method annotated with `@Autowired` is a config method. It is called on bea
 
 `@Component` and `@Autowired`
 https://ithelp.ithome.com.tw/m/articles/10322852
-![[Pasted image 20240717031710.png]]
+![[Pasted image 20240717031710.png|500]]
 
 |                                                                                                                                  |                                                                                                                                                                                                                                                              |
 | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -78,7 +78,6 @@ which statement are true?
  yes : Request Bean Scope: Instance will create and used by every HTTP request. 
  no: Prototype Bean Scope: New instance will create every time. 
 yes:  Session Bean Scope: New instance will create and used by single HTTP Session.
-
 
 ```java
 @Component
@@ -131,6 +130,9 @@ public class JdbcRestaurantRepository implements RestaurantRepository {
 @PreConstruct
 - Execute after bean is created (construcotr is called)
 @PreDestroy
+
+## `@ComponentScan("rewards.internal.aspects")`
+- Scan the pointcut defined
 ## Inversion of control
 ---
 _dependency injection_ (DI)

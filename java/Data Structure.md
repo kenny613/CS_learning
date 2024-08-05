@@ -1,7 +1,7 @@
 # Primitive Data Structure
 ## Primitive type conversion
 ---
-![[Pasted image 20240715222338.png]]
+![[Pasted image 20240715222338.png|500]]
 ## Array
 ---
 ```java
@@ -49,6 +49,7 @@ Hierarchy
 Time complexity
 - Inert to head: $O(n)$
 - Insert to last: $O(1)$ and 
+_amortized constant tim_ for insertion
 
 ## `Deque`
 ---
@@ -161,8 +162,11 @@ System.out.println(queue);
 ```
 
 
-## `Set`
+## `Hashset` & `TreeSet`
 ---
+- ==`Hashset` is backed by `HashMap`==
+	- a `HashMap` with` key` = element, `value` = `PRESENT`
+- ![[Pasted image 20240731134911.png|600]]
 ```java
 Set<Integer> treeSet = new TreeSet<>();
 treeSet.add(1);
