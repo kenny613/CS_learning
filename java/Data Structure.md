@@ -223,6 +223,7 @@ Allows `null` but `hashTable` does not
 	`LinkedList` is quicker than `ArrayList` because `ArrayList` can get resized (Amortized time complexity)
 - Random element access
 	`ArrayList` is quicker than `LinkedList` because `ArrayList` is in **locality of reference**
+https://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist-in-java
 		
 #### `LinkedList` vs `ArrayDeque`
 ---
@@ -234,8 +235,14 @@ Allows `null` but `hashTable` does not
 | Adding/Removing element in the middle   | Faster       | Slower       | 1. create a new node to hold the element;<br>2. set the _next_ pointer of the previous node to the new node;<br>3. set the _next_ pointer of the new node to the next element in the list.<br>while `ArrayDeque` has to shrift the element |
 | `null`-able?                            | Yes          | No           |                                                                                                                                                                                                                                            |
 |                                         |              |              |                                                                                                                                                                                                                                            |
+|                                         |              |              |                                                                                                                                                                                                                                            |
+|                                         |              |              |                                                                                                                                                                                                                                            |
 
-
+####  `Stack` vs `ArrayDeque extends Deque` 
+---
+- `Stack` allows access by index, inconsistent with what a Stack should do
+- `Stack` is class, `Deque` is interface
+	- Using `Deque` gives flexibility because only one class can be extended from class `Stack`
 
 # Glossary
 ---
