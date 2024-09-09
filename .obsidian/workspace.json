@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Behaviour Interview Q&A.md",
+                "file": "C#/Record.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Behaviour Interview Q&A.md",
+                "file": "C#/Record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Behaviour Interview Q&A.md",
+                "file": "C#/Record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Behaviour Interview Q&A.md"
+                "file": "C#/Record.md"
               }
             }
           },
@@ -160,46 +160,16 @@
       "jupyter:Create Jupyter Notebook": false
     }
   },
-  "floating": {
-    "id": "fd938a59c1c1e011",
-    "type": "floating",
-    "children": [
-      {
-        "id": "6288e6ff661e37a2",
-        "type": "window",
-        "children": [
-          {
-            "id": "75a9f2e7807a9062",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "98826d985f9c0e58",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Behaviour Interview Q&A.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 57,
-        "y": 18,
-        "width": 949,
-        "height": 884,
-        "maximize": true,
-        "zoom": 1
-      }
-    ]
-  },
   "active": "eb5acc1c1f8c4863",
   "lastOpenFiles": [
+    "C#/Class.md",
+    "Company-wise interview/SG FICC.md",
+    "img/Pasted image 20240910031645.png",
+    "img/Pasted image 20240910023750.png",
     "Company-wise interview/Millenium.md",
+    "ML@kaggle/Times Series/code/Toolbox.md",
+    "ML@kaggle/Times Series/Times Series@ Kaggle.md",
+    "ML@kaggle/Times Series/code/exercise-linear-regression-with-time-series.ipynb",
     "Behaviour Interview Q&A.md",
     "img/Pasted image 20240827024643.png",
     "img/Pasted image 20240827024614.png",
@@ -230,12 +200,7 @@
     "java/Spring boot/Beans.md",
     "java/Spring boot/Annotation.md",
     "Low-level/Multithreading and Concurrency.md",
-    "C++/Interview Q&A.md",
     "img/Pasted image 20240730225055.png",
-    "Full-stack Interview Questions.md",
-    "2024-07-28.md",
-    "img/Pasted image 20240715001242.png",
-    "img/Pasted image 20240715001239.png",
     "img",
     "New folder",
     "Interview questions",
@@ -243,7 +208,6 @@
     "Multithreading & Concurrency",
     "java/Java++",
     "Untitled.canvas",
-    "web",
-    "SQL"
+    "web"
   ]
 }

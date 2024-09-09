@@ -8,7 +8,32 @@ https://www.studocu.com/row/document/university-of-central-punjab/safe-agile-sof
 下面是我的解法：首先用一个map来记录下<prime factor, occurance>。比如[2,4,6,8]就会记录下<2, 4>和<3,1>。注意在找每一个数的prime factor的时候不要重复记录了，比如8虽然有三个2，但是在map里只加一次。然
 	- start to divide by 2, 3 .... (Prime factoriazstion)
 
+assume 最多只可以有一個prime factor > sqrt(n) 
+```python
+b  = [1,1,1,1,1,11,1,1,11,1,1,1,1...]
 
+
+nums = [2,6]
+primes_freq = {2 : 2, 3 : 1}
+
+def solution(states, nums)
+	for i in range(len(states)) # 
+	    
+	    total_flips = 0
+	    
+	    primes = genereate_primes_lst(i + 1) # 6 -> 2,3
+	    # get total flip by getting occurance of all prime factoers of b[i+1]
+	    for prime in primes:
+	        total_flips += primes_freq.get(prime, 0)
+	    if total_flips % 2 == 1:
+	        b[i] = 1 - b[i]
+        
+i == 5
+primes = genereate_primes_lst(2) = 2, 3
+for i in [2,3]:
+    # i = 2
+    flips += primes_freq.get(prime, 0) = 2
+```
 
 [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 DFS
