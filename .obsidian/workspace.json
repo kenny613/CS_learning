@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Record.md",
+                "file": "Company-wise interview/SG FICC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C#/Record.md",
+                "file": "Company-wise interview/SG FICC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C#/Record.md",
+                "file": "Company-wise interview/SG FICC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C#/Record.md"
+                "file": "Company-wise interview/SG FICC.md"
               }
             }
           },
@@ -162,6 +162,7 @@
   },
   "active": "eb5acc1c1f8c4863",
   "lastOpenFiles": [
+    "C#/Record.md",
     "C#/Class.md",
     "Company-wise interview/SG FICC.md",
     "img/Pasted image 20240910031645.png",
@@ -176,7 +177,6 @@
     "Company-wise interview",
     "java/Data Structure.md",
     "web/HTML.md",
-    "C#/Record.md",
     "web/Q&A.md",
     "web/REST.md",
     "web/ReactJS.md",
