@@ -1,4 +1,39 @@
+Data scinest
+team 3.5 years
+expanding rapidly
+50-60 ppl globally
+US singapore, UK, SGP
+Platform function
+engagment function
+content side
+- Content research
+- Data research
+Data operation analyst
+- engagment side
+- focson operation
+- supporting ETL pipeline
+- little mangment side
+- junior role
+- 2-3 years road map
+	- become DA, DS
+Team
+- Big enviroment
+- initliating lots of projects
+- team members moving sth different
+- lots of different data products
 
+Data
+content team, understand the dat
+research data
+
+plaform team
+infrastructure
+
+- engagement the PM
+data monitoring
+
+thousands of thousands pf dataset from Vencor, price value, options data, alternative data, 
+## SWE version
 thanks for having me today. I am Kenny.  I am a SWE. with over 2 years of experience of profeessional exp. in the oy industry and investment banking environment.  Personally I would descrbe myself as a passionate and collaborative
 
 as you know Currently, I am working for Societie Générale Before this role, I also had 2 internship before I graduated with my undergraduate degree Computer Science back in 2022 in VUHK
@@ -16,6 +51,33 @@ We do leverage on tech stack such as Python and Java with Spring for backend. Un
 	- abnormal volume of communication
 	- Political exposed stakeholder
 	- Declaring their travel for Sales
+- L1-L3 supports
+- We also initialize a Cloud transformation milestone to enhance software reliability
+
+
+Besides software engineering, machine learning is also the most exciting subject for me as I took Data Science during my undergraduate study. And I was glad to work with a group of intelligent Data Scientist in one of my internship.
+
+with that being said, I am extremely curious to see how a finical firm can generate business value by integrating ML into SWE practices. I also pretty much appreciate the beauty and satisfaction behind software engineering, how to utilize problem solving skills and modern tech to optimize and enhance the robustness of application
+
+I think that's pretty much about myself and some of my insights. Feel free to drop my question
+
+## DS version
+thanks for having me today. I am Kenny.  I am currently SWE. with over 2 years of experience of profeessional exp. in the oy industry and investment banking environment.  Personally I would descrbe myself as a passionate and collaborative engineer
+
+as you know Currently, I am working for Societie Générale Before this role, I also had 2 internship before I graduated with my undergraduate degree Computer Science back in 2022 in VUHK
+
+Over the past two years, I have earned wide exposure to investment banking tech, architecture as well as financial market. I developed my expertise in data analytics, FS dev as well as handful of  DevOps practices. and 
+
+In my role, I am responsible for delivering  high quality digitalization projects for critical operation to  Compliance with the opportunity to also liaised with experts from front to back experts. 
+
+We do leverage on tech stack such as Python, PowerBI (for ML, data related project) and Java with Spring for backend dev. Under the agile framework, Together we delivered 7-8 RegtTch applications built They served for different purpose such as 
+- Trade Surveillance application, 
+	- Machine learning to extract information from broker statement
+- Automatized web scraping for daily operation (Daily Regulatory update by web scraping)
+- 
+- abnormal volume of communication using data analstics
+- Deliver different PowerBI dashboard for visualization stake
+	
 - L1-L3 supports
 - We also initialize a Cloud transformation milestone to enhance software reliability
 

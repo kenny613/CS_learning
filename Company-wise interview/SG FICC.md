@@ -5,5 +5,5 @@
 ![[Pasted image 20240910031645.png|700]]
 Left: Payer
 - Benefit from interest rate increase because he still pays fixed rate
-Right reciever:
-- Benefit from interest rate drop becuase he recieve diff between fixed and floationg rate
+Right Receiver:
+- Benefit from interest rate drop because he received diff between fixed and floationg rate

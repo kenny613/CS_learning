@@ -1,4 +1,4 @@
-## Synchronized 
+ ## Synchronized 
 ---
 - Mutual exclusive, locked resource with one thread is accessing
 - like a toilet, the object can be used by only one person (thread). However it is sharable even only one person can use it at one time.

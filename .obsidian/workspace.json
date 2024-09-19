@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Company-wise interview/SG FICC.md",
+                "file": "Behaviour Interview Q&A.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.50260543823242
+    "width": 289.5026054382324
   },
   "right": {
     "id": "d7ffa2a5817fd0c8",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Company-wise interview/SG FICC.md",
+                "file": "Behaviour Interview Q&A.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Company-wise interview/SG FICC.md",
+                "file": "Behaviour Interview Q&A.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Company-wise interview/SG FICC.md"
+                "file": "Behaviour Interview Q&A.md"
               }
             }
           },
@@ -162,18 +162,26 @@
   },
   "active": "eb5acc1c1f8c4863",
   "lastOpenFiles": [
+    "java/Concurrency & multithreading.md",
+    "Low-level/Multithreading and Concurrency.md",
+    "Behaviour Interview Q&A.md",
+    "Company-wise interview/Millenium.md",
+    "img/Pasted image 20240919025628.png",
+    "img/Pasted image 20240919025510.png",
+    "img/Pasted image 20240919025502.png",
+    "img/Pasted image 20240919025445.png",
+    "img/Pasted image 20240919024437.png",
+    "img/Pasted image 20240919024432.png",
+    "img/Pasted image 20240919024427.png",
+    "img/Pasted image 20240919024420.png",
+    "img/Pasted image 20240919024404.png",
+    "Company-wise interview/SG FICC.md",
     "C#/Record.md",
     "C#/Class.md",
-    "Company-wise interview/SG FICC.md",
     "img/Pasted image 20240910031645.png",
-    "img/Pasted image 20240910023750.png",
-    "Company-wise interview/Millenium.md",
     "ML@kaggle/Times Series/code/Toolbox.md",
     "ML@kaggle/Times Series/Times Series@ Kaggle.md",
     "ML@kaggle/Times Series/code/exercise-linear-regression-with-time-series.ipynb",
-    "Behaviour Interview Q&A.md",
-    "img/Pasted image 20240827024643.png",
-    "img/Pasted image 20240827024614.png",
     "Company-wise interview",
     "java/Data Structure.md",
     "web/HTML.md",
@@ -181,7 +189,6 @@
     "web/REST.md",
     "web/ReactJS.md",
     "System Design/Q&A.md",
-    "java/Concurrency & multithreading.md",
     "java/Java++/Annotation.md",
     "java/Online Interview questions.md",
     "java/Interview Q&A.md",
@@ -190,17 +197,10 @@
     "java/OOP.md",
     "java/Spring boot/Aspect Orientated Programming.md",
     "web/Javascript.md",
-    "img/Pasted image 20240805220143.png",
     "System Design",
     "java/Java++/Functional programming.md",
-    "img/Pasted image 20240804010901.png",
-    "img/Pasted image 20240803234514.png",
-    "img/Pasted image 20240803234445.png",
-    "img/Pasted image 20240731134911.png",
     "java/Spring boot/Beans.md",
     "java/Spring boot/Annotation.md",
-    "Low-level/Multithreading and Concurrency.md",
-    "img/Pasted image 20240730225055.png",
     "img",
     "New folder",
     "Interview questions",
